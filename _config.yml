@@ -1,3 +1,13 @@
-name: Flex
-markdown: redcarpet
-pygments: true
+name: chrisjones.dev
+# Conversion
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag  
+exclude: ['vendor']
