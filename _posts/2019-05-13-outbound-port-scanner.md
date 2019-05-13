@@ -4,9 +4,9 @@ cover: whiskey-glencairn.jpg
 categories: posts
 ---
 
-I was on an engagement today where all of my meterpreter payloads were being blocked. This organization is security-mature so it should have been no surpise. So I took a step back and asked myself, "What ports are open?"
+I was on an engagement today where all of my meterpreter payloads were being blocked - regardless if the payload was cretaed from setoolkit, DKMC, or msfvenom. This organization is very security-mature so it should have been no surpise. 
 
-Here's a little powershell script to identify the open ports on the firewall:
+So I took a step back and asked myself, "What ports are open?" Here's a little powershell script to identify the open ports on the firewall:
 
 ```powershell
 #Select port range
@@ -27,6 +27,6 @@ else {
 Write-Host "Outbound port $p is closed or filtered."}
 } #end foreach
 ```  
-  
-  
-I suppose I could have just ran a meterprester shell over https, but now I know for sure!
+   
+&nbsp;   
+I suppose I could have just ran a meterpreter shell over https, but now I know for sure!  
