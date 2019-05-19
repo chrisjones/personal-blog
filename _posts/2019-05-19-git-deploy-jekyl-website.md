@@ -2,6 +2,7 @@
 layout: post
 cover: whiskey-glencairn.jpg
 categories: posts
+tags: devops
 ---
 
 Let's face it, if you've used Heroku, you love their easy deploy process - I know I do! But if you try to host a hobby project that requires access to the local filesystem, or in my case I want the site to be hosted on the naked domain without having to use DNSimple or another provider that has ALIAS records, then Heroku quickly becomes a problem.
@@ -60,3 +61,11 @@ Let's face it, if you've used Heroku, you love their easy deploy process - I kno
    
 
 ### Whenever you have an update, or I want to create a new post, I simply commit the code and deploy to production. Boom!
+
+
+<p><small>
+Tags: 	
+  {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
+  {% endfor %}
+</small></p>

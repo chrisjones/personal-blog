@@ -2,6 +2,7 @@
 layout: post
 cover: whiskey-glencairn.jpg
 categories: posts
+tags: devops
 ---
 
 I love letsencrypt, but I don't deploy servers often enough to commit this to memory, but I do create a lot of public-facing websites!
@@ -65,3 +66,12 @@ I love letsencrypt, but I don't deploy servers often enough to commit this to me
    ```
 
 ### That'll quickly get you up and running with renewable certs from LetsEncrypt!
+
+
+
+<p><small>
+Tags: 
+  {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
+  {% endfor %}
+</small></p>

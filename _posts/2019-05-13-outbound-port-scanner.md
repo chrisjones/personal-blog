@@ -2,6 +2,7 @@
 layout: post
 cover: whiskey-glencairn.jpg
 categories: posts
+tags: security
 ---
 
 I was on an engagement today where all of my meterpreter payloads were being blocked - regardless if the payload was cretaed from setoolkit, DKMC, or msfvenom. This organization is very security-mature so it should have been no surpise. 
@@ -28,5 +29,13 @@ Write-Host "Outbound port $p is closed or filtered."}
 } #end foreach
 ```  
    
-&nbsp;   
-I suppose I could have just ran a meterpreter shell over https, but now I know for sure!  
+&nbsp;  
+### I suppose I could have just ran a meterpreter shell over https, but now I know for sure!  
+
+
+<p><small>
+Tags: 
+  {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
+  {% endfor %}
+</small></p>
