@@ -36,7 +36,7 @@ Let's face it, if you've used Heroku, you love their easy deploy process - I kno
    echo 
    echo "Compiling assets..."
    echo
-   ~/.rbenv/shims/bundle exec jekyll build
+   JEKYLL_ENV=production ~/.rbenv/shims/bundle exec jekyll build
 
    exec git-update-server-info
    ```
