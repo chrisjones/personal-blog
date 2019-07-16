@@ -2,7 +2,7 @@
 layout: post
 cover: whiskey-glencairn.jpg
 categories: posts
-tags: PlanITDR
+tags: planitdr
 ---
 
 Just got back from awesome Dattocon19 in San Diego!
