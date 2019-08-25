@@ -210,6 +210,12 @@ li {
   background-color: #333;
 }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 /*****************************************************************************/
 /*
 /* Sidebar and Content
