@@ -21,7 +21,7 @@ When we bring on a new technology vendor, we ask the companies to go ahead and f
 --------
   2004	
 
-# \copy (select * from unprocessed_logs) TO unprocessed_logs.csv CSV DELIMITER ',' CSV HEADER
+# \copy (select * from unprocessed_logs) TO unprocessed_logs.csv CSV DELIMITER ',' HEADER
 
 # \q
 ```
