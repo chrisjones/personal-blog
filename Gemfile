@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 ruby '2.5.3'
 
-gem 'jekyll', '3.8.5'
+gem 'jekyll', '3.9.0'
 gem 'rake'
 gem 'foreman'
 gem 'thin'
 gem 'rack-contrib'
-gem 'kramdown'
+gem "kramdown", ">= 2.3.0"
 gem 'rouge'
 
 group :jekyll_plugins do
