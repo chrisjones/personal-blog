@@ -8,6 +8,7 @@ gem 'foreman'
 gem 'thin'
 gem 'rack-contrib'
 gem "kramdown", ">= 2.3.0"
+gem "kramdown-parser-gfm"
 gem 'rouge'
 
 group :jekyll_plugins do
