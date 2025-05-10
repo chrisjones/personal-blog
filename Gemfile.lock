@@ -51,7 +51,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.1.1)
-    rack (2.2.13)
+    rack (2.2.14)
     rack-contrib (2.5.0)
       rack (< 4)
     rake (13.2.1)
